@@ -16,10 +16,23 @@ public class KochCurve extends DrawingTool
       mySides = num;
     }
     
-    public void DrawKochCurve(int sides, double length)
+    public void DrawKochCurve(int level, double length)
     {
-        if(sides
-        
-        
+        if(level <1)
+        {
+            forward(length);
+        }
+        else 
+        {
+            
+            DrawKochCurve(level-1, length/3);
+            turnLeft(60);
+            DrawKochCurve(level-1, length/3);
+            turnRight(120);
+            DrawKochCurve(level-1,length/3);
+            turnLeft(60);
+            DrawKochCurve(level-1,length/3);
+            
     }
+}
 }
