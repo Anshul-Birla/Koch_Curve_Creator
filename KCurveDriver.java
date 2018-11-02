@@ -9,7 +9,12 @@ public class KCurveDriver
 {
     public static void main(String [] args)
     {
-        
+        KochCurve curvypen = new KochCurve();
+        curvypen.up();
+        curvypen.move(-150,0);
+        curvypen.setDirection(0);
+        curvypen.down();
+        curvypen.DrawKochCurve(6,300);
         
         
         
