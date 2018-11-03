@@ -22,5 +22,7 @@ public class KCurveDriver
         curvypen.DrawKochCurve(6,300);
         curvypen.setDirection(240);
         curvypen.DrawKochCurve(6,300);
+        curvypen.setDirection(120);
+        curvypen.DrawKochCurve(6,300);
     }
 }
