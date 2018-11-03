@@ -1,9 +1,9 @@
 import apcslib.*;
 /**
- * Write a description of class KochCurve here.
+ * Adds a method to draw a koch curce
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Anshul
+ * @version 1
  */
 public class KochCurve extends DrawingTool
 {
