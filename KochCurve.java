@@ -1,43 +1,25 @@
 import apcslib.*;
 /**
- * Adds a method to draw a koch curce
+ * Write a description of class KochCurve here.
  *
- * @author Anshul
- * @version 1
+ * @author (your name)
+ * @version (a version number or a date)
  */
 public class KochCurve extends DrawingTool
 {
-
-    /**
-     * Constructor for KochCurve class
-     */
-    public KochCurve()
+    protected double myLength;
+    protected int mySides;
+    
+    public KochCurve(double dub, int num)
     {
-      //no variables so no initialization
+      myLength = dub;
+      mySides = num;
     }
     
-    /**
-     * This draws the curve
-     * @param level      Level for the curve
-     * @param length     Length for the curve
-     */
-    public void DrawKochCurve(int level, double length)
+    public void DrawKochCurve(int sides, double length)
     {
-        if(level <1)
-        {
-            forward(length);
-        }
-        else 
-        {
-            
-            DrawKochCurve(level-1, length/3);
-            turnLeft(60);
-            DrawKochCurve(level-1, length/3);
-            turnRight(120);
-            DrawKochCurve(level-1,length/3);
-            turnLeft(60);
-            DrawKochCurve(level-1,length/3);
-            
+        if(sides
+        
+        
     }
-}
 }
