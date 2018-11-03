@@ -11,12 +11,15 @@ public class KCurveDriver
          
         KochCurve curvypen = new KochCurve();
         curvypen.up();
-        curvypen.move(-150,0);
+         curvypen.move(-150,150);
         curvypen.setDirection(0);
         curvypen.down();
         curvypen.DrawKochCurve(6,300);
         
-        
+        curvypen.setDirection(240);
+        curvypen.DrawKochCurve(6,300);
+        curvypen.setDirection(120);
+        curvypen.DrawKochCurve(6,300);
         
         
         
