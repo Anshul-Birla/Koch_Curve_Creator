@@ -1,9 +1,9 @@
 /**
- * Write a description of class KCurveDriver here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * This makes a koch curve snowflake
+ * @author Anshul
+ * @version V1
  */
+
 public class KCurveDriver
 {
     
