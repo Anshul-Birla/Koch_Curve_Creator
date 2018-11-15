@@ -1,12 +1,12 @@
-
 /**
  * This makes a koch curve snowflake
- *
  * @author Anshul
  * @version V1
  */
+
 public class KCurveDriver
 {
+    
     public static void main(String [] args)
     {
         //initialize 
@@ -24,7 +24,5 @@ public class KCurveDriver
         curvypen.DrawKochCurve(6,300);
         curvypen.setDirection(120);
         curvypen.DrawKochCurve(6,300);
-        
-        
     }
 }
